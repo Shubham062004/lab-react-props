@@ -1,0 +1,27 @@
+
+.App{
+  border: 15px double black;
+}
+h1{
+  color: rgb(222, 103, 35);
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+  
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  margin: 10px;
+}
+
+.images img{
+
+  width: 100%;
+}
+body{
+  background-color: rgb(136, 163, 163);
+}
